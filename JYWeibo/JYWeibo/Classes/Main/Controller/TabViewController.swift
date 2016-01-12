@@ -9,6 +9,8 @@
 import UIKit
 
 class TabViewController: UITabBarController {
+    
+    // MARK: - Life Cycle
 
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -19,6 +21,19 @@ class TabViewController: UITabBarController {
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.addCenterButton()
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.configureItems()
     }
     
     // MARK: - Override Methods
@@ -55,15 +70,50 @@ class TabViewController: UITabBarController {
     private func commonInit() {
         view.tintColor = UIColor.orangeColor()
     }
+    
+    private func addCenterButton() {
+        let addButton = UIButton(type: .Custom)
+        addButton.setImage(UIImage(named: "tabbar_compose_icon_add"), forState: .Normal)
+        addButton.setImage(UIImage(named: "tabbar_compose_icon_add_highlighted"), forState: .Highlighted)
+        addButton.setBackgroundImage(UIImage(named: "tabbar_compose_button"), forState: .Normal)
+        addButton.setBackgroundImage(UIImage(named: "tabbar_compose_button_highlighted"), forState: .Normal)
+        addButton.sizeToFit()
+        addButton.center = CGPoint(x: tabBar.boundsWidth * 0.5, y: tabBar.boundsHeight * 0.5)
+        
+        addButton.addTarget(self, action: Selector("addButtonClicked:"), forControlEvents: .TouchUpInside)
+        
+        tabBar.addSubview(addButton)
+    }
+    
+    private func configureItems() {
+        
+        guard let items = tabBar.items else {
+            return
+        }
+        
+        for i in 0..<items.count {
+            let item = tabBar.items![i]
+            if i == 2 {
+                item.enabled = false
+            }
+        }
+    }
+    
+    // MARK: - Taget Actions
+    @objc private func addButtonClicked(button: UIButton) {
+        
+    }
 
 }
 
 extension UITabBarItem {
-
+    
+    // 根据title和imageName设置tab bar item的外观.
     func configureItemWithTitle(title: String, imageName name: String) {
         self.title = title
         self.image = UIImage(named: name)
         // 自动根据imageName设置selImageName
         self.selectedImage = UIImage(named: name + "_highlighted")
     }
+    
 }

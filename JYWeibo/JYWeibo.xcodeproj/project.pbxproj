@@ -20,6 +20,7 @@
 		62C634001C451A65002FA7DE /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C633FF1C451A65002FA7DE /* DiscoveryViewController.swift */; };
 		62C634021C451A80002FA7DE /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C634011C451A80002FA7DE /* MeViewController.swift */; };
 		62C634041C451A88002FA7DE /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C634031C451A88002FA7DE /* MessageViewController.swift */; };
+		62C634081C45295C002FA7DE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C634071C45295C002FA7DE /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		62C633FF1C451A65002FA7DE /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
 		62C634011C451A80002FA7DE /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		62C634031C451A88002FA7DE /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		62C634071C45295C002FA7DE /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 		62C633DA1C4512F7002FA7DE /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				62C634071C45295C002FA7DE /* UIView+Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -470,6 +473,7 @@
 				62C633FE1C451A54002FA7DE /* HomeViewController.swift in Sources */,
 				62C634021C451A80002FA7DE /* MeViewController.swift in Sources */,
 				62C634041C451A88002FA7DE /* MessageViewController.swift in Sources */,
+				62C634081C45295C002FA7DE /* UIView+Extension.swift in Sources */,
 				62C634001C451A65002FA7DE /* DiscoveryViewController.swift in Sources */,
 				62C633FC1C451A46002FA7DE /* TabViewController.swift in Sources */,
 				62C633F41C4513D1002FA7DE /* Common.swift in Sources */,
