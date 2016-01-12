@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		62C633AC1C43E6FA002FA7DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C633AB1C43E6FA002FA7DE /* AppDelegate.swift */; };
-		62C633AE1C43E6FA002FA7DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C633AD1C43E6FA002FA7DE /* ViewController.swift */; };
 		62C633B11C43E6FA002FA7DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C633AF1C43E6FA002FA7DE /* Main.storyboard */; };
 		62C633B31C43E6FA002FA7DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C633B21C43E6FA002FA7DE /* Assets.xcassets */; };
 		62C633B61C43E6FA002FA7DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62C633B41C43E6FA002FA7DE /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		62C633A81C43E6FA002FA7DE /* JYWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C633AB1C43E6FA002FA7DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62C633AD1C43E6FA002FA7DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		62C633B01C43E6FA002FA7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62C633B21C43E6FA002FA7DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62C633B51C43E6FA002FA7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,12 +95,8 @@
 		62C633AA1C43E6FA002FA7DE /* JYWeibo */ = {
 			isa = PBXGroup;
 			children = (
-				62C633AB1C43E6FA002FA7DE /* AppDelegate.swift */,
-				62C633AD1C43E6FA002FA7DE /* ViewController.swift */,
-				62C633AF1C43E6FA002FA7DE /* Main.storyboard */,
-				62C633B21C43E6FA002FA7DE /* Assets.xcassets */,
-				62C633B41C43E6FA002FA7DE /* LaunchScreen.storyboard */,
-				62C633B71C43E6FA002FA7DE /* Info.plist */,
+				62C633F01C451302002FA7DE /* Other */,
+				62C633D91C4512F7002FA7DE /* Classes */,
 			);
 			path = JYWeibo;
 			sourceTree = "<group>";
@@ -123,6 +117,201 @@
 				62C633CD1C43E6FA002FA7DE /* Info.plist */,
 			);
 			path = JYWeiboUITests;
+			sourceTree = "<group>";
+		};
+		62C633D91C4512F7002FA7DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				62C633DA1C4512F7002FA7DE /* Category */,
+				62C633DB1C4512F7002FA7DE /* Discovery */,
+				62C633DF1C4512F7002FA7DE /* Home */,
+				62C633E31C4512F7002FA7DE /* Main */,
+				62C633E71C4512F7002FA7DE /* Me */,
+				62C633EB1C4512F7002FA7DE /* Message */,
+				62C633EF1C4512F7002FA7DE /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		62C633DA1C4512F7002FA7DE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		62C633DB1C4512F7002FA7DE /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				62C633DC1C4512F7002FA7DE /* Controller */,
+				62C633DD1C4512F7002FA7DE /* Model */,
+				62C633DE1C4512F7002FA7DE /* View */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		62C633DC1C4512F7002FA7DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62C633DD1C4512F7002FA7DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62C633DE1C4512F7002FA7DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62C633DF1C4512F7002FA7DE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				62C633E01C4512F7002FA7DE /* Controller */,
+				62C633E11C4512F7002FA7DE /* Model */,
+				62C633E21C4512F7002FA7DE /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		62C633E01C4512F7002FA7DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62C633E11C4512F7002FA7DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62C633E21C4512F7002FA7DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62C633E31C4512F7002FA7DE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				62C633E41C4512F7002FA7DE /* Controller */,
+				62C633E51C4512F7002FA7DE /* Model */,
+				62C633E61C4512F7002FA7DE /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		62C633E41C4512F7002FA7DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62C633E51C4512F7002FA7DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62C633E61C4512F7002FA7DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62C633E71C4512F7002FA7DE /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				62C633E81C4512F7002FA7DE /* Controller */,
+				62C633E91C4512F7002FA7DE /* Model */,
+				62C633EA1C4512F7002FA7DE /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		62C633E81C4512F7002FA7DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62C633E91C4512F7002FA7DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62C633EA1C4512F7002FA7DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62C633EB1C4512F7002FA7DE /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				62C633EC1C4512F7002FA7DE /* Controller */,
+				62C633ED1C4512F7002FA7DE /* Model */,
+				62C633EE1C4512F7002FA7DE /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		62C633EC1C4512F7002FA7DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62C633ED1C4512F7002FA7DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62C633EE1C4512F7002FA7DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62C633EF1C4512F7002FA7DE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		62C633F01C451302002FA7DE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				62C633AB1C43E6FA002FA7DE /* AppDelegate.swift */,
+				62C633AF1C43E6FA002FA7DE /* Main.storyboard */,
+				62C633B21C43E6FA002FA7DE /* Assets.xcassets */,
+				62C633B41C43E6FA002FA7DE /* LaunchScreen.storyboard */,
+				62C633B71C43E6FA002FA7DE /* Info.plist */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +382,7 @@
 				TargetAttributes = {
 					62C633A71C43E6FA002FA7DE = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 7XH48KBV9L;
 					};
 					62C633BB1C43E6FA002FA7DE = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -256,7 +446,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62C633AE1C43E6FA002FA7DE /* ViewController.swift in Sources */,
 				62C633AC1C43E6FA002FA7DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +588,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JYWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +601,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JYWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
