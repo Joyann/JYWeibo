@@ -14,6 +14,12 @@
 		62C633C11C43E6FA002FA7DE /* JYWeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C633C01C43E6FA002FA7DE /* JYWeiboTests.swift */; };
 		62C633CC1C43E6FA002FA7DE /* JYWeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C633CB1C43E6FA002FA7DE /* JYWeiboUITests.swift */; };
 		62C633F41C4513D1002FA7DE /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C633F31C4513D1002FA7DE /* Common.swift */; };
+		62C633FB1C451A46002FA7DE /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C633F91C451A46002FA7DE /* NavigationViewController.swift */; };
+		62C633FC1C451A46002FA7DE /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C633FA1C451A46002FA7DE /* TabViewController.swift */; };
+		62C633FE1C451A54002FA7DE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C633FD1C451A54002FA7DE /* HomeViewController.swift */; };
+		62C634001C451A65002FA7DE /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C633FF1C451A65002FA7DE /* DiscoveryViewController.swift */; };
+		62C634021C451A80002FA7DE /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C634011C451A80002FA7DE /* MeViewController.swift */; };
+		62C634041C451A88002FA7DE /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C634031C451A88002FA7DE /* MessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		62C633CB1C43E6FA002FA7DE /* JYWeiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYWeiboUITests.swift; sourceTree = "<group>"; };
 		62C633CD1C43E6FA002FA7DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62C633F31C4513D1002FA7DE /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		62C633F91C451A46002FA7DE /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		62C633FA1C451A46002FA7DE /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		62C633FD1C451A54002FA7DE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		62C633FF1C451A65002FA7DE /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		62C634011C451A80002FA7DE /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		62C634031C451A88002FA7DE /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +167,7 @@
 		62C633DC1C4512F7002FA7DE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				62C633FF1C451A65002FA7DE /* DiscoveryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,6 +199,7 @@
 		62C633E01C4512F7002FA7DE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				62C633FD1C451A54002FA7DE /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -217,6 +231,8 @@
 		62C633E41C4512F7002FA7DE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				62C633F91C451A46002FA7DE /* NavigationViewController.swift */,
+				62C633FA1C451A46002FA7DE /* TabViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -248,6 +264,7 @@
 		62C633E81C4512F7002FA7DE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				62C634011C451A80002FA7DE /* MeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -279,6 +296,7 @@
 		62C633EC1C4512F7002FA7DE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				62C634031C451A88002FA7DE /* MessageViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -449,7 +467,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C633FE1C451A54002FA7DE /* HomeViewController.swift in Sources */,
+				62C634021C451A80002FA7DE /* MeViewController.swift in Sources */,
+				62C634041C451A88002FA7DE /* MessageViewController.swift in Sources */,
+				62C634001C451A65002FA7DE /* DiscoveryViewController.swift in Sources */,
+				62C633FC1C451A46002FA7DE /* TabViewController.swift in Sources */,
 				62C633F41C4513D1002FA7DE /* Common.swift in Sources */,
+				62C633FB1C451A46002FA7DE /* NavigationViewController.swift in Sources */,
 				62C633AC1C43E6FA002FA7DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,6 +616,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JYWeibo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -605,6 +630,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JYWeibo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
