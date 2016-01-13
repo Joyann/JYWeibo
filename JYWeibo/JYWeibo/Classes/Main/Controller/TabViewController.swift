@@ -101,13 +101,14 @@ class TabViewController: UITabBarController {
     
     // MARK: - Taget Actions
     @objc private func addButtonClicked(button: UIButton) {
+        let addVC = MoreFeaturesViewController()
         
+        presentViewController(addVC, animated: true, completion: nil)
     }
 
 }
 
 extension UITabBarItem {
-    
     // 根据title和imageName设置tab bar item的外观.
     func configureItemWithTitle(title: String, imageName name: String) {
         self.title = title
