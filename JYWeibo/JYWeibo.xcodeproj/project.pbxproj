@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		621FBCCA1C47CE83004A1380 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FBCC91C47CE83004A1380 /* BaseViewController.swift */; };
+		621FBCCC1C47CEAC004A1380 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FBCCB1C47CEAC004A1380 /* VisitorView.swift */; };
+		621FBCCE1C47CEC0004A1380 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621FBCCD1C47CEC0004A1380 /* VisitorView.xib */; };
 		6240D35A1C45DB6B000368FB /* MoreFeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6240D3591C45DB6B000368FB /* MoreFeaturesViewController.swift */; };
 		62B59FE31C45DCA200A9574B /* MoreFeaturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62B59FE21C45DCA200A9574B /* MoreFeaturesViewController.xib */; };
 		62B59FE51C45E0F000A9574B /* MoreFeaturesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B59FE41C45E0F000A9574B /* MoreFeaturesButton.swift */; };
@@ -44,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		621FBCC91C47CE83004A1380 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		621FBCCB1C47CEAC004A1380 /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
+		621FBCCD1C47CEC0004A1380 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
 		6240D3591C45DB6B000368FB /* MoreFeaturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreFeaturesViewController.swift; sourceTree = "<group>"; };
 		62B59FE21C45DCA200A9574B /* MoreFeaturesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreFeaturesViewController.xib; sourceTree = "<group>"; };
 		62B59FE41C45E0F000A9574B /* MoreFeaturesButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreFeaturesButton.swift; sourceTree = "<group>"; };
@@ -94,6 +100,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		621FBCC51C47CD2F004A1380 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				621FBCC61C47CD2F004A1380 /* Controller */,
+				621FBCC71C47CD2F004A1380 /* Model */,
+				621FBCC81C47CD2F004A1380 /* View */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		621FBCC61C47CD2F004A1380 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				621FBCC91C47CE83004A1380 /* BaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		621FBCC71C47CD2F004A1380 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		621FBCC81C47CD2F004A1380 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				621FBCCB1C47CEAC004A1380 /* VisitorView.swift */,
+				621FBCCD1C47CEC0004A1380 /* VisitorView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6240D3551C45DB4D000368FB /* MoreFeatures */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +218,7 @@
 		62C633D91C4512F7002FA7DE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				621FBCC51C47CD2F004A1380 /* Visitor */,
 				6240D3551C45DB4D000368FB /* MoreFeatures */,
 				62C633DA1C4512F7002FA7DE /* Category */,
 				62C633DB1C4512F7002FA7DE /* Discovery */,
@@ -485,6 +526,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62B59FE31C45DCA200A9574B /* MoreFeaturesViewController.xib in Resources */,
+				621FBCCE1C47CEC0004A1380 /* VisitorView.xib in Resources */,
 				62C633B61C43E6FA002FA7DE /* LaunchScreen.storyboard in Resources */,
 				62C633B31C43E6FA002FA7DE /* Assets.xcassets in Resources */,
 				62C633B11C43E6FA002FA7DE /* Main.storyboard in Resources */,
@@ -517,7 +559,9 @@
 				62C634041C451A88002FA7DE /* MessageViewController.swift in Sources */,
 				6240D35A1C45DB6B000368FB /* MoreFeaturesViewController.swift in Sources */,
 				62C634081C45295C002FA7DE /* UIView+Extension.swift in Sources */,
+				621FBCCA1C47CE83004A1380 /* BaseViewController.swift in Sources */,
 				62C634001C451A65002FA7DE /* DiscoveryViewController.swift in Sources */,
+				621FBCCC1C47CEAC004A1380 /* VisitorView.swift in Sources */,
 				62C633FC1C451A46002FA7DE /* TabViewController.swift in Sources */,
 				62C633F41C4513D1002FA7DE /* Common.swift in Sources */,
 				62C633FB1C451A46002FA7DE /* NavigationViewController.swift in Sources */,

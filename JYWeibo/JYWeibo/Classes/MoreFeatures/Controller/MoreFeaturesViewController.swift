@@ -51,7 +51,9 @@ class MoreFeaturesViewController: UIViewController {
     
     @IBAction func close(sender: AnyObject) {
         // 转动closeButton
-        self.closeButton.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_4))
+        UIView.animateWithDuration(0.25, animations: { () -> Void in
+            self.closeButton.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_4))
+            }, completion: nil)
 
         // buttons下降动画
         
