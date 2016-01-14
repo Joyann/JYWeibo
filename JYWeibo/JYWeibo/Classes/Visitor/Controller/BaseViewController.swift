@@ -19,7 +19,7 @@ class BaseViewController: UIViewController {
     override func loadView() {
         setupVisitorView()
     }
-    
+
     // MARK: - Private Methodss
 
     private func setupVisitorView() {
@@ -27,9 +27,32 @@ class BaseViewController: UIViewController {
             return;
         }
         
+        // 设置navigationBar上的按钮
+        self.configureBarButtonItems()
         
+        // 设置标题
+        self.navigationItem.title = "首页"
         
+        // 设置visitorView为当前view
         self.view = visitorView
-
     }
+    
+    private func configureBarButtonItems() {
+        let registerButton = UIBarButtonItem(title: "注册", style: .Plain, target: self, action: Selector("register"))
+        registerButton.tintColor = UIColor.orangeColor()
+        let loginButton = UIBarButtonItem(title: "登录", style: .Plain, target: self, action: Selector("login"))
+        registerButton.tintColor = UIColor.orangeColor()
+        
+        navigationItem.leftBarButtonItem = registerButton
+        navigationItem.rightBarButtonItem = loginButton
+    }
+    
+    @objc private func register() {
+        
+    }
+    
+    @objc private func login() {
+        
+    }
+    
 }

@@ -12,7 +12,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visitordiscover_feed_image_smallicon" translatesAutoresizingMaskIntoConstraints="NO" id="Vi2-sF-fsL">
-                    <rect key="frame" x="213" y="80" width="175" height="175"/>
+                    <rect key="frame" x="213" y="110" width="175" height="175"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="175" id="nGM-GN-TDa"/>
@@ -23,13 +23,30 @@
                     <rect key="frame" x="0.0" y="0.0" width="600" height="350"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visitordiscover_feed_image_house" translatesAutoresizingMaskIntoConstraints="NO" id="QUp-o8-xk5">
-                    <rect key="frame" x="253" y="142.5" width="94" height="90"/>
+                    <rect key="frame" x="253" y="172.5" width="94" height="90"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="94" id="F9f-yF-x4b"/>
                         <constraint firstAttribute="height" constant="90" id="yhZ-1m-jCG"/>
                     </constraints>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关注一些人，回这里看看有什么惊喜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ni6-YK-8Wu">
+                    <rect key="frame" x="180" y="339" width="240" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.60000002384185791" green="0.60000002384185791" blue="0.60000002384185791" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="on9-0c-bjP">
+                    <rect key="frame" x="240" y="384" width="120" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="R0i-5N-ceg"/>
+                        <constraint firstAttribute="width" constant="120" id="b8I-Ax-pa4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="去关注" backgroundImage="common_button_white_disable">
+                        <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
@@ -37,8 +54,12 @@
                 <constraint firstItem="Vi2-sF-fsL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1gY-ch-YlB"/>
                 <constraint firstAttribute="bottom" secondItem="b8R-dR-jU7" secondAttribute="bottom" constant="250" id="42P-p4-70i"/>
                 <constraint firstAttribute="trailing" secondItem="b8R-dR-jU7" secondAttribute="trailing" id="6wv-Io-fDq"/>
+                <constraint firstItem="on9-0c-bjP" firstAttribute="top" secondItem="Ni6-YK-8Wu" secondAttribute="bottom" constant="27" id="A6h-Wk-wBs"/>
                 <constraint firstItem="b8R-dR-jU7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="B5R-n5-eko"/>
-                <constraint firstItem="Vi2-sF-fsL" firstAttribute="top" secondItem="b8R-dR-jU7" secondAttribute="bottom" constant="-270" id="UnD-kd-9GP"/>
+                <constraint firstItem="on9-0c-bjP" firstAttribute="centerX" secondItem="Ni6-YK-8Wu" secondAttribute="centerX" id="SmG-Ik-fQG"/>
+                <constraint firstItem="Ni6-YK-8Wu" firstAttribute="centerX" secondItem="Vi2-sF-fsL" secondAttribute="centerX" id="T6g-BE-c2R"/>
+                <constraint firstItem="Vi2-sF-fsL" firstAttribute="top" secondItem="b8R-dR-jU7" secondAttribute="bottom" constant="-240" id="UnD-kd-9GP"/>
+                <constraint firstItem="Ni6-YK-8Wu" firstAttribute="top" secondItem="Vi2-sF-fsL" secondAttribute="bottom" constant="54" id="ZFT-0Y-OW5"/>
                 <constraint firstItem="QUp-o8-xk5" firstAttribute="centerX" secondItem="Vi2-sF-fsL" secondAttribute="centerX" id="aJc-gL-hjs"/>
                 <constraint firstItem="b8R-dR-jU7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="d7J-HP-wct"/>
             </constraints>
@@ -51,6 +72,7 @@
         </view>
     </objects>
     <resources>
+        <image name="common_button_white_disable" width="11" height="9"/>
         <image name="visitordiscover_feed_image_house" width="94" height="90"/>
         <image name="visitordiscover_feed_image_smallicon" width="175" height="175"/>
         <image name="visitordiscover_feed_mask_smallicon" width="175" height="175"/>

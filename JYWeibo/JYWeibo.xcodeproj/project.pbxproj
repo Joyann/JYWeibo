@@ -10,6 +10,7 @@
 		621FBCCA1C47CE83004A1380 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FBCC91C47CE83004A1380 /* BaseViewController.swift */; };
 		621FBCCC1C47CEAC004A1380 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FBCCB1C47CEAC004A1380 /* VisitorView.swift */; };
 		621FBCCE1C47CEC0004A1380 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 621FBCCD1C47CEC0004A1380 /* VisitorView.xib */; };
+		621FBCD01C47E179004A1380 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FBCCF1C47E179004A1380 /* UIBarButtonItem+Extension.swift */; };
 		6240D35A1C45DB6B000368FB /* MoreFeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6240D3591C45DB6B000368FB /* MoreFeaturesViewController.swift */; };
 		62B59FE31C45DCA200A9574B /* MoreFeaturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62B59FE21C45DCA200A9574B /* MoreFeaturesViewController.xib */; };
 		62B59FE51C45E0F000A9574B /* MoreFeaturesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B59FE41C45E0F000A9574B /* MoreFeaturesButton.swift */; };
@@ -50,6 +51,7 @@
 		621FBCC91C47CE83004A1380 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		621FBCCB1C47CEAC004A1380 /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
 		621FBCCD1C47CEC0004A1380 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
+		621FBCCF1C47E179004A1380 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		6240D3591C45DB6B000368FB /* MoreFeaturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreFeaturesViewController.swift; sourceTree = "<group>"; };
 		62B59FE21C45DCA200A9574B /* MoreFeaturesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreFeaturesViewController.xib; sourceTree = "<group>"; };
 		62B59FE41C45E0F000A9574B /* MoreFeaturesButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreFeaturesButton.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				62C634071C45295C002FA7DE /* UIView+Extension.swift */,
+				621FBCCF1C47E179004A1380 /* UIBarButtonItem+Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -564,6 +567,7 @@
 				621FBCCC1C47CEAC004A1380 /* VisitorView.swift in Sources */,
 				62C633FC1C451A46002FA7DE /* TabViewController.swift in Sources */,
 				62C633F41C4513D1002FA7DE /* Common.swift in Sources */,
+				621FBCD01C47E179004A1380 /* UIBarButtonItem+Extension.swift in Sources */,
 				62C633FB1C451A46002FA7DE /* NavigationViewController.swift in Sources */,
 				62B59FE51C45E0F000A9574B /* MoreFeaturesButton.swift in Sources */,
 				62C633AC1C43E6FA002FA7DE /* AppDelegate.swift in Sources */,
