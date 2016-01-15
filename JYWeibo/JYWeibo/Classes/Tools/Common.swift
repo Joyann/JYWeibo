@@ -27,3 +27,9 @@ func RandomColor() -> UIColor {
     let a = Float(arc4random_uniform(101)) / 100.0
     return Color(r: r, g: g, b: b, a: a)
 }
+
+/* ------------------- Tag属性 ------------------------- */
+
+let PHONE_TEXT_FIELD = 1001
+let PWD_TEXT_FIELD   = 1002
+
