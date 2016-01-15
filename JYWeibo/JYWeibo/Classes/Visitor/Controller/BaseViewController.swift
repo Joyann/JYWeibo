@@ -63,7 +63,13 @@ class BaseViewController: UIViewController {
     }
     
     @objc private func register() {
-        
+        // 显示注册界面
+        let sb = UIStoryboard(name: "RegisterViewController", bundle: nil)
+        let navi = sb.instantiateInitialViewController()
+        guard let navigationVC = navi as? UINavigationController else {
+            return
+        }
+        presentViewController(navigationVC, animated: true, completion: nil)
     }
     
     @objc private func login() {

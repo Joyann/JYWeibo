@@ -29,6 +29,8 @@ class VisitorView: UIView {
         rotation.repeatCount = MAXFLOAT
         rotation.fromValue = 0
         rotation.toValue = CGFloat(M_PI * 2)
+        rotation.removedOnCompletion = false
+        
         self.rotationImageView.layer.addAnimation(rotation, forKey: nil)
     }
     
