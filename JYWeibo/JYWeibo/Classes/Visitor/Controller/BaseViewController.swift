@@ -12,20 +12,14 @@ class BaseViewController: UIViewController {
 
     // MARK: - Propeties
     
-    var visitorView: VisitorView? {
-        didSet {
-            guard let visitor = visitorView else {
-                return
-            }
-            
-            visitor.startAnimating()
-        }
-    }
+    var visitorView: VisitorView?
     
     // MARK: - Life Cycle
     
-    override func loadView() {
-        setupVisitorView()
+    override func loadView() { // 默认刚上来是首页界面
+        let text = "关注一些人，回这里看看有什么惊喜"
+        let imageName = "visitordiscover_feed_image_house"
+        setupVisitorViewWithText(text, imageName: imageName, isMain: true)
     }
     
     override func viewDidLoad() {
@@ -34,10 +28,12 @@ class BaseViewController: UIViewController {
 
     // MARK: - Private Methodss
     
-    private func setupVisitorView() {
+    func setupVisitorViewWithText(text: String, imageName: String, isMain: Bool) {
         guard let visitorView = VisitorView.visitorView() else { //如果无法加载visitorView, 则直接返回
             return;
         }
+        
+        visitorView.setupVisitorViewWithText(text, imageName: imageName, isMain: isMain)
         
         self.visitorView = visitorView
         
