@@ -30,7 +30,6 @@ class BaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 
     // MARK: - Private Methodss
@@ -73,7 +72,10 @@ class BaseViewController: UIViewController {
     }
     
     @objc private func login() {
+        // 显示登录界面
+        let loginVC = LoginViewController()
         
+        presentViewController(loginVC, animated: true, completion: nil)
     }
     
 }

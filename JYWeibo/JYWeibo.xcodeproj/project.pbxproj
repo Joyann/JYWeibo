@@ -17,6 +17,8 @@
 		626561301C49418D00DBF350 /* RegisterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6265612F1C49418D00DBF350 /* RegisterTableViewCell.swift */; };
 		626561321C494E9E00DBF350 /* RegisterFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 626561311C494E9E00DBF350 /* RegisterFooterView.xib */; };
 		626561341C494EB200DBF350 /* RegisterFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626561331C494EB200DBF350 /* RegisterFooterView.swift */; };
+		626561371C4A14EB00DBF350 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626561351C4A14EB00DBF350 /* LoginViewController.swift */; };
+		626561381C4A14EB00DBF350 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 626561361C4A14EB00DBF350 /* LoginViewController.xib */; };
 		62B59FE31C45DCA200A9574B /* MoreFeaturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62B59FE21C45DCA200A9574B /* MoreFeaturesViewController.xib */; };
 		62B59FE51C45E0F000A9574B /* MoreFeaturesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B59FE41C45E0F000A9574B /* MoreFeaturesButton.swift */; };
 		62C633AC1C43E6FA002FA7DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C633AB1C43E6FA002FA7DE /* AppDelegate.swift */; };
@@ -63,6 +65,8 @@
 		6265612F1C49418D00DBF350 /* RegisterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterTableViewCell.swift; path = JYWeibo/Classes/Visitor/View/RegisterTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		626561311C494E9E00DBF350 /* RegisterFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterFooterView.xib; sourceTree = "<group>"; };
 		626561331C494EB200DBF350 /* RegisterFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterFooterView.swift; sourceTree = "<group>"; };
+		626561351C4A14EB00DBF350 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		626561361C4A14EB00DBF350 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		62B59FE21C45DCA200A9574B /* MoreFeaturesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreFeaturesViewController.xib; sourceTree = "<group>"; };
 		62B59FE41C45E0F000A9574B /* MoreFeaturesButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreFeaturesButton.swift; sourceTree = "<group>"; };
 		62C633A81C43E6FA002FA7DE /* JYWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +132,8 @@
 				621FBCC91C47CE83004A1380 /* BaseViewController.swift */,
 				626561271C492F3E00DBF350 /* RegisterViewController.swift */,
 				6265612B1C492FBF00DBF350 /* RegisterViewController.storyboard */,
+				626561351C4A14EB00DBF350 /* LoginViewController.swift */,
+				626561361C4A14EB00DBF350 /* LoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -543,6 +549,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626561381C4A14EB00DBF350 /* LoginViewController.xib in Resources */,
 				6265612C1C492FBF00DBF350 /* RegisterViewController.storyboard in Resources */,
 				62B59FE31C45DCA200A9574B /* MoreFeaturesViewController.xib in Resources */,
 				621FBCCE1C47CEC0004A1380 /* VisitorView.xib in Resources */,
@@ -574,6 +581,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626561371C4A14EB00DBF350 /* LoginViewController.swift in Sources */,
 				62C633FE1C451A54002FA7DE /* HomeViewController.swift in Sources */,
 				62C634021C451A80002FA7DE /* MeViewController.swift in Sources */,
 				62C634041C451A88002FA7DE /* MessageViewController.swift in Sources */,

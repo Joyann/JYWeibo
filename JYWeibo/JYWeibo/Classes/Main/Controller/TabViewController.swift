@@ -76,7 +76,7 @@ class TabViewController: UITabBarController {
         addButton.setImage(UIImage(named: "tabbar_compose_icon_add"), forState: .Normal)
         addButton.setImage(UIImage(named: "tabbar_compose_icon_add_highlighted"), forState: .Highlighted)
         addButton.setBackgroundImage(UIImage(named: "tabbar_compose_button"), forState: .Normal)
-        addButton.setBackgroundImage(UIImage(named: "tabbar_compose_button_highlighted"), forState: .Normal)
+        addButton.setBackgroundImage(UIImage(named: "tabbar_compose_button_highlighted"), forState: .Highlighted)
         addButton.sizeToFit()
         addButton.center = CGPoint(x: tabBar.boundsWidth * 0.5, y: tabBar.boundsHeight * 0.5)
         
