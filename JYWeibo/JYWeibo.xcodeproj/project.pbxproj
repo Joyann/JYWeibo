@@ -18,7 +18,7 @@
 		626561321C494E9E00DBF350 /* RegisterFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 626561311C494E9E00DBF350 /* RegisterFooterView.xib */; };
 		626561341C494EB200DBF350 /* RegisterFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626561331C494EB200DBF350 /* RegisterFooterView.swift */; };
 		626561371C4A14EB00DBF350 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626561351C4A14EB00DBF350 /* LoginViewController.swift */; };
-		626561381C4A14EB00DBF350 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 626561361C4A14EB00DBF350 /* LoginViewController.xib */; };
+		6265613A1C4A2DBB00DBF350 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626561391C4A2DBB00DBF350 /* LoginViewController.storyboard */; };
 		62B59FE31C45DCA200A9574B /* MoreFeaturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62B59FE21C45DCA200A9574B /* MoreFeaturesViewController.xib */; };
 		62B59FE51C45E0F000A9574B /* MoreFeaturesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B59FE41C45E0F000A9574B /* MoreFeaturesButton.swift */; };
 		62C633AC1C43E6FA002FA7DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C633AB1C43E6FA002FA7DE /* AppDelegate.swift */; };
@@ -66,7 +66,7 @@
 		626561311C494E9E00DBF350 /* RegisterFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterFooterView.xib; sourceTree = "<group>"; };
 		626561331C494EB200DBF350 /* RegisterFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterFooterView.swift; sourceTree = "<group>"; };
 		626561351C4A14EB00DBF350 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		626561361C4A14EB00DBF350 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		626561391C4A2DBB00DBF350 /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
 		62B59FE21C45DCA200A9574B /* MoreFeaturesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreFeaturesViewController.xib; sourceTree = "<group>"; };
 		62B59FE41C45E0F000A9574B /* MoreFeaturesButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreFeaturesButton.swift; sourceTree = "<group>"; };
 		62C633A81C43E6FA002FA7DE /* JYWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,7 +133,7 @@
 				626561271C492F3E00DBF350 /* RegisterViewController.swift */,
 				6265612B1C492FBF00DBF350 /* RegisterViewController.storyboard */,
 				626561351C4A14EB00DBF350 /* LoginViewController.swift */,
-				626561361C4A14EB00DBF350 /* LoginViewController.xib */,
+				626561391C4A2DBB00DBF350 /* LoginViewController.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -549,12 +549,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				626561381C4A14EB00DBF350 /* LoginViewController.xib in Resources */,
 				6265612C1C492FBF00DBF350 /* RegisterViewController.storyboard in Resources */,
 				62B59FE31C45DCA200A9574B /* MoreFeaturesViewController.xib in Resources */,
 				621FBCCE1C47CEC0004A1380 /* VisitorView.xib in Resources */,
 				62C633B61C43E6FA002FA7DE /* LaunchScreen.storyboard in Resources */,
 				62C633B31C43E6FA002FA7DE /* Assets.xcassets in Resources */,
+				6265613A1C4A2DBB00DBF350 /* LoginViewController.storyboard in Resources */,
 				626561321C494E9E00DBF350 /* RegisterFooterView.xib in Resources */,
 				62C633B11C43E6FA002FA7DE /* Main.storyboard in Resources */,
 			);

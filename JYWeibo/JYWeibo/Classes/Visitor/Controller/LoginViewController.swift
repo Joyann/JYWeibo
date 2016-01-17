@@ -10,11 +10,7 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    @IBAction func close(sender: AnyObject) {
-        
-        dismissViewControllerAnimated(true, completion: nil)
-        
-    }
+    
    
 
 }

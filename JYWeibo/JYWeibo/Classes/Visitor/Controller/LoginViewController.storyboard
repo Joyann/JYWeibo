@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="42c-9F-eIM">
+            <objects>
+                <viewController id="ANU-Fa-kyD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="khm-Us-QLb"/>
+                        <viewControllerLayoutGuide type="bottom" id="W4X-db-A8H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ww6-Aa-UBe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QAJ-DS-Amv">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QAJ-DS-Amv" firstAttribute="top" secondItem="Ww6-Aa-UBe" secondAttribute="top" id="GdV-Ky-4fF"/>
+                            <constraint firstItem="QAJ-DS-Amv" firstAttribute="leading" secondItem="Ww6-Aa-UBe" secondAttribute="leading" id="bEk-hd-mgJ"/>
+                            <constraint firstItem="W4X-db-A8H" firstAttribute="top" secondItem="QAJ-DS-Amv" secondAttribute="bottom" id="cHT-GD-XNC"/>
+                            <constraint firstAttribute="trailing" secondItem="QAJ-DS-Amv" secondAttribute="trailing" id="iq4-U7-T01"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="WpF-49-Pvu">
+                        <barButtonItem key="leftBarButtonItem" title="取消" id="ZuO-Va-agL">
+                            <color key="tintColor" red="0.49803921580314636" green="0.49803921580314636" blue="0.49803921580314636" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vMt-dU-Qe6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1376" y="349"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GZS-V5-fSp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="u71-rN-npg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SPB-Qc-VHv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ANU-Fa-kyD" kind="relationship" relationship="rootViewController" id="37g-xh-3SP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MVl-dM-Jte" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="564" y="349"/>
+        </scene>
+    </scenes>
+</document>
