@@ -10,7 +10,12 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var webView: UIWebView!
     
+    @IBAction func dismiss(sender: AnyObject) {
+        
+        dismissViewControllerAnimated(true, completion: nil)
+        
+    }
    
-
 }

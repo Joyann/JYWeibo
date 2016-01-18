@@ -69,9 +69,12 @@ class BaseViewController: UIViewController {
     
     @objc private func login() {
         // 显示登录界面
-        let loginVC = LoginViewController()
+        let sb = UIStoryboard(name: "LoginViewController", bundle: nil)
+        guard let navi = sb.instantiateInitialViewController() as? UINavigationController else {
+            return
+        }
         
-        presentViewController(loginVC, animated: true, completion: nil)
+        presentViewController(navi, animated: true, completion: nil)
     }
     
 }
