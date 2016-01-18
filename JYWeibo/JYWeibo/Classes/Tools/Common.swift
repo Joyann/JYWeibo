@@ -8,6 +8,13 @@
 
 import UIKit
 
+/* ------------------- Weibo 授权 ----------------------- */
+
+let APP_KEY = "39779882"
+let APP_SECRET = "a93b2998486f637c6298776a506c2f67"
+let WEIBO_REDIRECT_URI = "http://www.baidu.com"
+let WEIBO_AUTH_URL = "https://api.weibo.com/oauth2/authorize?client_id=\(APP_KEY)&response_type=code&redirect_uri=\(WEIBO_REDIRECT_URI)"
+
 /* ------------------- view 尺寸 ----------------------- */
 
 let SCREEN_BOUNDS = UIScreen.mainScreen().bounds
