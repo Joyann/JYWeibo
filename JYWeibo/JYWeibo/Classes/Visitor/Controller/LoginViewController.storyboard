@@ -37,6 +37,11 @@
                                 <action selector="dismiss:" destination="ANU-Fa-kyD" id="if9-ws-F91"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="填充" id="Zs1-ZE-hDE">
+                            <connections>
+                                <action selector="fill:" destination="ANU-Fa-kyD" id="uYy-Jo-J9S"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="webView" destination="GSM-jo-E6S" id="aBt-fc-7ZU"/>
