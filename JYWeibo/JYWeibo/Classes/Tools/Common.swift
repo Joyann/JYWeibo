@@ -40,3 +40,11 @@ func RandomColor() -> UIColor {
 let PHONE_TEXT_FIELD = 1001
 let PWD_TEXT_FIELD   = 1002
 
+/* ------------------- 自定义输出 ------------------------ */
+func JYLog<T>(msg: T, fileName: String = __FILE__, funcName: String = __FUNCTION__, line: Int = __LINE__) {
+    #if DEBUG
+    print("[FILENAME]:\((fileName as NSString).lastPathComponent)\n[FUNCNAME]:\(funcName)\n[LINE]:\(line)\n[MESSAGE]:\(msg)\n")
+    #endif
+}
+
+

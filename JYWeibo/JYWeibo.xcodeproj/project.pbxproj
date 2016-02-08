@@ -745,6 +745,7 @@
 				INFOPLIST_FILE = JYWeibo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
