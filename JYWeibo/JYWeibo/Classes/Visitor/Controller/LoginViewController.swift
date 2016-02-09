@@ -30,7 +30,7 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func fill(sender: AnyObject) {
-        let js = "var user = '1111'; var user_input = document.getElementById('userId'); user_input.value = user; var pwd = '2222'; var pwd_input = document.getElementById('passwd'); pwd_input.value = pwd;"
+        let js = "var user = '2166097144@qq.com'; var user_input = document.getElementById('userId'); user_input.value = user; var pwd = '2166097144Q'; var pwd_input = document.getElementById('passwd'); pwd_input.value = pwd;"
         webView.stringByEvaluatingJavaScriptFromString(js);
     }
     

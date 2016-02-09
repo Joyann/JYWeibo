@@ -10,8 +10,8 @@ import UIKit
 
 /* ------------------- Weibo 授权 ----------------------- */
 
-let APP_KEY = "39779882"
-let APP_SECRET = "a93b2998486f637c6298776a506c2f67"
+let APP_KEY = "3987516294"
+let APP_SECRET = "d66d2cdc4e1370af33d9a50fa575994c"
 let WEIBO_REDIRECT_URI = "http://www.baidu.com"
 let WEIBO_AUTH_URL = "https://api.weibo.com/oauth2/authorize?client_id=\(APP_KEY)&response_type=code&redirect_uri=\(WEIBO_REDIRECT_URI)"
 
